@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    font-size: 3rem;
+    color: #6900ff;
+
+}
+.purple{
+    color: #6900ff;
+}
+input{
+    width: 300px;
+    padding: 0.3rem;
+    background: #6900ff;
+    border: 2px solid #0000;
+    outline: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffff;
+}
