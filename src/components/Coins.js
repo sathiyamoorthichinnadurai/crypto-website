@@ -19,7 +19,7 @@ function Coins({coins,Search}) {
             
 
         </div>
-    {coins.filter((currency)=>currency.name.toLowerCase().includes(Search)).map((coins,)=>{
+    {coins.filter((currency)=>currency.name.toLowerCase().includes(Search.toLowerCase())).map((coins,)=>{
             return(
                 <Link to={`/coin/${coins.id}`} element={<Coin/>} >
                 <Coinitem coins={coins} key={coins.id}/>
